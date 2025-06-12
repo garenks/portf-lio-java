@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Editar Veículo</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div class="form-container">
+        <h2>Editar Veículo</h2>
+        <input type="text" id="modeloInput" placeholder="Modelo" />
+        <input type="text" id="marcaInput" placeholder="Marca" />
+        <input type="text" id="corInput" placeholder="Cor" />
+        <input type="text" id="precoInput" placeholder="Preço" />
+        <input type="text" id="quilometragemInput" placeholder="Quilometragem" />
+        <input type="text" id="fotoInput" placeholder="URL da Foto (ex: https://exemplo.com/carro.jpg)" /> <label for="opcoes">Disponibilidade</label>
+        <select id="opcoes" name="opcao">
+            <option value="1">Disponível</option>
+            <option value="2">Indisponível</option>
+        </select>
+
+        <button id="editarBtn">Editar Veículo</button>
+        <a class="cadastrarVeiculo" href="index.html">Voltar para lista</a>
+    </div>
+
+    <script src="./js/editar.js"></script>
+</body>
+</html>
